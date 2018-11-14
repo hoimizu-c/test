@@ -1,0 +1,23 @@
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+    System.out.println("helloworld");
+    
+String a="赤";
+
+switch(a){
+case "赤":
+	System.out.println("紅組です");
+    break;
+case "白":
+	System.out.println("白組です");
+	break;
+	
+	default:
+		System.out.println("エらーです");
+}
+	}
+
+}

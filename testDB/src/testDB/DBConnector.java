@@ -3,15 +3,11 @@
  */
 package testDB;
 
-/**
- * @author testuser
- *
- */
-public class DBConnector {
-	import java.sql.DriverManager;
-	import java.sql.SQLException;
 	import java.sql.Connection;
-	
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+
 	
 	/**
 	 * <p>MySQLに接続する為のユーリティクラスです。<br>
@@ -33,7 +29,7 @@ public class DBConnector {
 	/**
 	 * データベース接続ユーザ名
 	 */
-	private static String password="root";
+	private static String user="root";
 	/**
 	 * データベース接続パスワード
 	 */

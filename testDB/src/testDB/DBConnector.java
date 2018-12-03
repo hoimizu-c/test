@@ -7,8 +7,6 @@ package testDB;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-
-	
 	/**
 	 * <p>MySQLに接続する為のユーリティクラスです。<br>
 	 * ルートアカウントにてDBに接続されます。</p>

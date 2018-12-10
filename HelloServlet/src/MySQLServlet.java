@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -22,7 +23,7 @@ public class MySQLServlet extends HttpServlet {
     }
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
-		response.getContentType("text/html; charset=UTF-8");
+		response.setContentType("text/html; charset=UTF-8");
 
 		PrintWriter out=response.getWriter();
 
@@ -45,7 +46,7 @@ public class MySQLServlet extends HttpServlet {
 
 		Statement stmt=conn.createStatement();
 		String sql="SELECT * FROM test_table";
-		ReslutSet rs=stmt.executeQuery(sql);
+		ResultSet rs=stmt.executeQuery(sql);
 
 		while(rs.next()){
 			int userId=rs.getInt("user_id");

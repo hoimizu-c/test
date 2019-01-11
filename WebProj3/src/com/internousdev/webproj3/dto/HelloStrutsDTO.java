@@ -1,7 +1,13 @@
 package com.internousdev.webproj3.dto;
 
-
-//3時間目の9ぺージまで
 public class HelloStrutsDTO {
+	private String result;
+	public String getResult(){
+		return result;
+	}
+	
+	public void setResult(String result){
+		this.result=result;
+	}
 
 }

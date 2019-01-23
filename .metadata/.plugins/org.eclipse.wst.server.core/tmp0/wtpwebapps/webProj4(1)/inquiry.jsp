@@ -14,7 +14,7 @@
      <select name="qtype">
          <option value="company">会社について</option>
          <option value="product">製品について</option>
-         <option vallue="support">アフターサポートについて</option>
+         <option value="support">アフターサポートについて</option>
      </select>
      <br>
      お問い合わせ内容：

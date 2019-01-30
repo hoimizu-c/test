@@ -6,4 +6,5 @@
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.THREAD_POLICY_ID"/>
 </qualifiedTypeNameHistroy>
